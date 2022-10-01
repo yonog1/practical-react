@@ -1,19 +1,23 @@
 import "./App.css";
 import data from "./data.json";
 
-//var num = data.length();
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 
 function Person() {
-    var length = data.length - 1;
-    console.log(`number of people in json data file: ${length + 1}`);
-    return (
-        <>
-            <div className="Person-name">{data[length].name}</div>
-            <div>
-                <img src={data[length].img}></img>
-            </div>
-        </>
-    );
+  var index = data.length - 1;
+  console.log(`number of people in json data file: ${index + 1}`);
+  return (
+    <>
+      <div>
+        <img alt="person" src={data[index].img}></img>
+      </div>
+      <div className="Person-name">
+        {capitalizeFirstLetter(data[index].name)}
+      </div>
+    </>
+  );
 }
 
 export default Person;
