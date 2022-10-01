@@ -1,0 +1,24 @@
+.Main {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    /*
+    flex-direction: column;
+    */
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Person-name {
+    display: flex;
+    justify-content: center;
+}
+
+.Score {
+    align-items: flex-start;
+}
+
+.Feedback {
+}
