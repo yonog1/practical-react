@@ -8,15 +8,13 @@ import Score from "./Score";
 function App() {
     return (
         <div className="Main">
-            <div className="Score">
-                <Score></Score>
+            <div className="Stats">
+                <Score className="Score"></Score>
+                <Feedback className="Feedback"></Feedback>
             </div>
-            <div className="Feedback">
-                <Feedback></Feedback>
-            </div>
-            <div className="Person">
-                <Person></Person>
-            </div>
+
+            <Person className="Person"></Person>
+
             <div className="Buttons">
                 <Stack spacing={2} direction="row">
                     <Button variant="contained">Dead</Button>

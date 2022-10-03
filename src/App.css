@@ -2,23 +2,46 @@
     background-color: #282c34;
     min-height: 100vh;
     display: flex;
-
+    align-items: center;
     justify-content: center;
-    /*
     flex-direction: column;
+    /*
     */
-    font-size: calc(10px + 2vmin);
+    font-size: 3vmin;
     color: white;
+}
+
+.Stats {
+    width: 120%;
+}
+
+.Score {
+    margin-left: 5vmin;
+}
+
+#Score-text {
+    margin-left: 40vmin;
+}
+
+.Feedback {
+    margin-left: 5vmin;
+}
+
+#Feedback-text {
+    margin-left: 40vmin;
+}
+
+.Content {
+    width: 70%;
 }
 
 .Person-name {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 5vmin;
 }
 
-.Score {
-    align-items: flex-start;
-}
-
-.Feedback {
+#Photo {
+    width: 50vmin;
+    height: 50vmin;
 }

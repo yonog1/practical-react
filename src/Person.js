@@ -8,10 +8,10 @@ function Person() {
     console.log(`number of people in json data file: ${length + 1}`);
     return (
         <>
-            <div className="Person-name">{data[length].name}</div>
             <div>
-                <img src={data[length].img}></img>
+                <img id="Photo" src={data[length].img}></img>
             </div>
+            <div className="Person-name">{data[length].name}</div>
         </>
     );
 }
