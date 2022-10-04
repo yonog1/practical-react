@@ -4,7 +4,7 @@ import data from "./data.json";
 //var num = data.length();
 
 function Person() {
-    var length = data.length - 1;
+    var length = 3; //data.length - 1;
     console.log(`number of people in json data file: ${length + 1}`);
     return (
         <>
