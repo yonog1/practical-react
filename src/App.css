@@ -44,4 +44,8 @@
 #Photo {
     width: 50vmin;
     height: 50vmin;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+    padding: 1px;
+    /*width: 150px;*/
 }

@@ -1,21 +1,21 @@
 [
     {
         "status": "ugly",
-        "name": "israel",
+        "name": "drake",
         "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAd51GAfF8qHx-m6Kuxlv_Daxas5MwVdtjSA&usqp=CAU"
     },
     {
         "status": "dead",
-        "name": "moshe",
+        "name": "mario",
         "img" : "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc5NjIyODM0ODM2ODc0Mzc3/dwayne-the-rock-johnson-gettyimages-1061959920.jpg"
     },
     {
         "status": "ugly",
-        "name": "eyal",
+        "name": "david",
         "img" : "https://i1.sndcdn.com/artworks-E07PMMkXCJ6GwgFv-zzdHNA-t500x500.jpg"
     },
     {
-        "status": "dead",
+        "status": "ugly",
         "name": "quandale",
         "img" : "https://i1.sndcdn.com/avatars-zxyWtNoHP4m391wt-z0mnTA-t500x500.jpg"
     }

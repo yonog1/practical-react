@@ -3,15 +3,21 @@ import data from "./data.json";
 
 //var num = data.length();
 
-function Person() {
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function Person({ personStatus }) {
     var length = 3; //data.length - 1;
-    console.log(`number of people in json data file: ${length + 1}`);
+    //console.log(`number of people in json data file: ${length + 1}`);
     return (
         <>
             <div>
                 <img id="Photo" src={data[length].img}></img>
             </div>
-            <div className="Person-name">{data[length].name}</div>
+            <div className="Person-name">
+                {capitalizeFirstLetter(data[length].name)}
+            </div>
         </>
     );
 }
