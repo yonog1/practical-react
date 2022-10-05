@@ -21,7 +21,7 @@ function App() {
             setScore(score++);
         }
         */
-        setScore(sc++);
+        setScore((prev) => prev + 1);
     }
 
     return (

@@ -5,13 +5,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    /*
+    */
     font-size: 3vmin;
     color: white;
 }
 
 .Stats {
-    width: 120%;
+    width: 95%;
 }
 
 .Score {
