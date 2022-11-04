@@ -75,9 +75,9 @@ function App() {
 
                             if (index < data.length - 1) {
                                 console.log(index);
-                                setIndex((prev) => prev + 1);
 
                                 statusCheck(buttonStatus);
+                                setIndex((prev) => prev + 1);
                             }
                         }}
                         variant="contained"
